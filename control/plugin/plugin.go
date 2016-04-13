@@ -89,7 +89,7 @@ const (
 var (
 	// Timeout settings
 	// How much time must elapse before a lack of Ping results in a timeout
-	PingTimeoutDurationDefault = time.Millisecond * 1500
+	PingTimeoutDurationDefault = time.Millisecond * 1500 * 1000
 	// How many successive PingTimeouts must occur to equal a failure.
 	PingTimeoutLimit = 3
 
